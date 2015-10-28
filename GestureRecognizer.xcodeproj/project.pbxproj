@@ -14,6 +14,7 @@
 		E1BC2A6E1BDDD78B00D473F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BC2A6D1BDDD78B00D473F9 /* Images.xcassets */; };
 		E1BC2A711BDDD78B00D473F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BC2A6F1BDDD78B00D473F9 /* LaunchScreen.xib */; };
 		E1BC2A7D1BDDD78C00D473F9 /* GestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BC2A7C1BDDD78C00D473F9 /* GestureRecognizerTests.m */; };
+		E1FFF5431BDE381400814102 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FFF5421BDE381400814102 /* football.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E1BC2A761BDDD78C00D473F9 /* GestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BC2A7B1BDDD78C00D473F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1BC2A7C1BDDD78C00D473F9 /* GestureRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerTests.m; sourceTree = "<group>"; };
+		E1FFF5421BDE381400814102 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		E1BC2A5F1BDDD78B00D473F9 /* GestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				E1FFF5421BDE381400814102 /* football.png */,
 				E1BC2A641BDDD78B00D473F9 /* AppDelegate.h */,
 				E1BC2A651BDDD78B00D473F9 /* AppDelegate.m */,
 				E1BC2A671BDDD78B00D473F9 /* ViewController.h */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1BC2A6C1BDDD78B00D473F9 /* Main.storyboard in Resources */,
+				E1FFF5431BDE381400814102 /* football.png in Resources */,
 				E1BC2A711BDDD78B00D473F9 /* LaunchScreen.xib in Resources */,
 				E1BC2A6E1BDDD78B00D473F9 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 				E1BC2A821BDDD78C00D473F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1BC2A831BDDD78C00D473F9 /* Build configuration list for PBXNativeTarget "GestureRecognizerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				E1BC2A851BDDD78C00D473F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
